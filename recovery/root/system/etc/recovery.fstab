@@ -11,7 +11,7 @@
 /product_image      emmc      product                                                               flags=display="Product image";backup=1;flashimg=1;logical;
 /boot               emmc      /dev/block/bootdevice/by-name/boot                                    flags=display="Boot";backup=1;flashimg=1;
 /recovery           emmc      /dev/block/bootdevice/by-name/recovery                                flags=display="Recovery";backup=1;flashimg=1;
-/data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";encryption=ice=256;
+/data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";encryptable=/dev/block/platform/soc/1d84000.ufshc/by-name/keymaster
 /metadata	          ext4		  /dev/block/bootdevice/by-name/metadata		                            flags=backup=1;display="Metadata"
 /cache              ext4      /dev/block/bootdevice/by-name/cache                                   flags=display="Cache";
 /misc               emmc      /dev/block/bootdevice/by-name/misc                                    flags=display="Misc";backup=1;flashimg=1;
