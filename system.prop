@@ -1,0 +1,6 @@
+ro.product.board=SM7150
+o.board.platform=SM7150
+sys.usb.controller=a600000.dwc3
+ro.boot.dynamic_partitions=true
+#fbe.metadata.wrappedkey=true
+ro.boot.bootdevice=1d84000.ufshc
