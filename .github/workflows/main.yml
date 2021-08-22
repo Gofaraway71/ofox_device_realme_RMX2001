@@ -15,9 +15,9 @@ on:
 
 env:
   MANIFEST: https://gitlab.com/OrangeFox/Manifest.git
-  DEVICE: RMX2001
+  DEVICE: m51
   DT_LINK: https://github.com/Gofaraway71/ofox_device_realme_RMX2001
-  DT_PATH: device/realme/RMX2001
+  DT_PATH: device/samsung/m51
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
